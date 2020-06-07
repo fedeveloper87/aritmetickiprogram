@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program za obavljanje aritmetičkih operacija</title>
+</head>
+<body>
+
+<script>
+
+var a = prompt("Please enter first number");
+var operation = prompt("Please enter +,-,*,/");
+var b = prompt("Please enter second number");
+var a = parseInt(a);
+var b = parseInt(b);
+var addition = a + b;
+var subtraction = a - b;
+var multiplication = a * b;
+var division = a / b;
+
+
+
+            if( operation == "+" ) {
+                alert("Addition of these numbers is : " + addition);
+            } else if( operation == "-" ) {
+                alert("Subtraction of these numbers is: " + subtraction);
+            } else if( operation == "*" ) {
+                alert("Multiplication of these numbers is: " + multiplication);
+            } else if( operation == "/" ) {
+                alert("Division of these numbers is: " + division);
+            } else {
+                alert("Please enter +,-,*,/ in operation popup box");
+            }
+
+</script>
+
+</body>
+</html>
